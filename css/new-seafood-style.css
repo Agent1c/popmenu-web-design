@@ -9,7 +9,7 @@
     --grilled-on-plate-5-hex: #0D0D0D;
     --background-color: #f4f4f4;
     --text-color: #333;
-    --header-background: hwb(0 100% 0%);
+    --header-background: #ffffff;
 }
 
 /* Color Theme Swatches in Hex */
@@ -46,7 +46,7 @@ main {
     background: var(--background-color);
 }
 main h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--grilled-on-plate-5-hex);
     margin: 1rem 0;
     padding: 1em;
@@ -108,8 +108,15 @@ nav ul li a {
     flex-grow: 1;
     width: 50%;	
 }
+
+.banner .cover h1 {
+    font-size: 3rem;
+    color: var(--grilled-on-plate-5-hex);
+    margin-bottom: 1rem;
+}
+
 .banner .cover p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--grilled-on-plate-5-hex);
     margin-bottom: 1rem;
 }
